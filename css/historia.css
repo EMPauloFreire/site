@@ -47,7 +47,7 @@ h1{
     float: left;
 }
 .navTabs label{
-    width: 324.2px;
+    width: 200px;
     padding: 25px;
     background-color: #363b48;
     font-size: 25px;
@@ -76,15 +76,15 @@ h1{
     display: block;
 }
 .navTabs .ex1{
-    width: 20%;
+    width: 400px;
     height: 300px;
 }
 .navTabs .ex2{
-    width: 20%;
+    width: 225px;
     height: 300px;
 }
 .navTabs .ex3{
-    width: 20%;
+    width: 305px;
     height: 300px;
 }
 .navTabs div{
