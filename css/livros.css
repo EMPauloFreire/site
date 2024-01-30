@@ -1,0 +1,131 @@
+
+.items {
+    display: flex;
+    list-style-type: none;
+    transition: transform 0.5s ease-in-out;
+}
+body{
+    position: relative;
+}
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('../img/livros/fundo.jpg');
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.Corpo h1{
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.biblioteca{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    margin-bottom: 5%; 
+    position: relative;
+    text-align: justify;
+
+}
+.biblioteca h2{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.biblioteca p{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 8%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 4%;
+    line-height: 1.5;
+}
+.livros{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px; 
+}
+.livros h2{
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.post{
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+}
+.post li{
+    padding: 3% 2%;
+}
+.post li:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+.livro{
+    width: 100%;
+    padding-bottom: 5%;
+}
+.post h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8%;
+    text-align: left;
+}
+.post p{
+    padding-bottom: 5%;
+    padding-top: -3%;
+    opacity: 0.7;
+    text-align: left;
+}
+.btn_ler {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border: 2px solid #ff2635;
+    background-color: #ff2635;
+    color: #fff;
+    padding: 3% 20%;
+    border-radius: 5px;
+}  
+.posts:hover .btn_ler {
+    opacity: 1;
+}
+  #prev1, #next1 {
+    position: absolute;
+    top: 44%;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  #prev2, #next2 {
+    position: absolute;
+    top: 72%;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  .prev {
+    left: 12%;
+  }
+  
+  .next {
+    right: 12%;
+  }
+  
+  

@@ -1,0 +1,135 @@
+.Cabecario{
+    background-color: #548f40;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.menu{
+    margin-left: 13%;
+    margin-top: 4%;
+}
+.menu .menuFake{
+    position: absolute;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+.menu .menulinha{
+    position: absolute;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+}
+.menu .menulinha span{
+    display: block;
+    width: 60px;
+    height: 8px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    border-radius: 3px;
+    transition: all ease .2s;
+}
+.menu .menuFake:checked ~ .menulinha span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(31deg) scaleX(1.25);
+}
+.menu .menuFake:checked ~ .menulinha span:nth-child(2){
+    opacity: 0;
+}
+.menu .menuFake:checked ~ .menulinha span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-31deg) scaleX(1.25);
+}
+.menu ul{
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 770px;
+    background-color: #2b2a2b;
+    padding-top: 100px;
+    margin-left: -300px;
+    transition: all ease .5s;
+}
+.menu .menuFake:checked ~ ul{
+    margin-left: 0;
+}
+.menu ul li{
+    padding: 10px 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+    transition: all ease .3s;
+}
+.menu ul li a:hover{
+    color: #656166;
+}
+.comeco .imgMenu{
+    padding-top: 2%;
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    border-radius: 10%;
+}
+.bordas{
+    width: 100%;
+}
+.amarela{
+    height: 30px;
+    width: 50%;
+    background-color: yellow;
+    -webkit-transform: skew(20deg); /* Chrome, Opera */
+    -ms-transform: skew(20deg); /* IE */
+    transform: skew(20deg);
+    float: left;
+}
+.vermelha{
+    height: 30px;
+    width: 50%;
+    background-color: red;
+    float: right;
+}
+.solido{
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient( to right, yellow, red 50%); 
+    margin-bottom: 3%;
+
+}
+.Rodape{
+    background-color: #141414;
+    color: white;
+    text-align: center;
+}
+.rod{
+   padding-top: 5%;
+   padding-bottom: 2%;
+}
+.rod h3{
+   padding-bottom: 5%;
+   font-size: 25px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: .1em;
+}
+.rod p{
+   padding-bottom: 2%;
+   font-size: 22px;
+}
+.rod a {
+   text-decoration:none;
+   color: white;
+}
+.rod .facebook{
+   padding-left: 8%;
+}
+.email{
+    padding: 5%;
+}
