@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Página com Opções</title>
+</head>
+<body>
+
+  <header>
+    <h1>Página Inicial</h1>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li onclick="mostrarConteudo('conteudoOpcao1', this)">Opção 1</li>
+      <li onclick="mostrarConteudo('conteudoOpcao2', this)">Opção 2</li>
+      <li onclick="mostrarConteudo('conteudoOpcao3', this)">Opção 3</li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="conteudoInicial" class="conteudo">
+      <h2>Bem-vindo à Página com Opções</h2>
+      <p>Aqui você encontrará informações incríveis. Escolha uma opção no menu para começar.</p>
+    </section>
+
+    <section id="conteudoOpcao1" class="conteudo">
+      <h2>Conteúdo da Opção 1</h2>
+      <p>Informações da Opção 1.</p>
+    </section>
+
+    <section id="conteudoOpcao2" class="conteudo">
+      <h2>Conteúdo da Opção 2</h2>
+      <p>Informações da Opção 2.</p>
+    </section>
+
+    <section id="conteudoOpcao3" class="conteudo">
+      <h2>Conteúdo da Opção 3</h2>
+      <p>Informações da Opção 3.</p>
+    </section>
+  </main>
+
+  <script src="./javascript/secretaria.js"></script>
+</body>
+</html>
+
+
